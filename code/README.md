@@ -14,4 +14,4 @@ Python 3 (numpy, scipy, matplotlib). Every number, table and figure in the manus
 | `realdata_report.py` | Real-data tables and figures |
 | `fig_theory.py`, `figstyle.py` | Schematic, landscape, saturation and design figures |
 
-Run order: `python3 sim.py`, `python3 design.py`, `python3 design_patterns.py`, `python3 realdata.py`, then the report and figure scripts. Results are written to `../results`, figures to `../figs` and LaTeX tables to `../tex/tables`. Seeds are fixed, so the output is reproducible.
+Run order: `python3 sim.py`, `python3 design.py`, `python3 design_patterns.py`, `python3 realdata.py`, then the report and figure scripts. Seeds are fixed, so the output is reproducible.
