@@ -14,7 +14,7 @@ SCHEMES = {
 EXACT = [True, False, True, False, True, False]
 NS = [30, 50, 100, 200]
 B = 2000
-OUT = "/home/claude/gpci_paper/results"
+OUT = "/home/dev/gpci_paper/results"
 
 
 def run_cell(args):
