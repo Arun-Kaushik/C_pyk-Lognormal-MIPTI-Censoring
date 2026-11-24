@@ -7,9 +7,9 @@ from figstyle import setup, PAL, TEXTW, panel_label, plt
 from realdata import DATA, EXACT
 
 setup()
-RES = "/home/claude/gpci_paper/results"
-FIG = "/home/claude/gpci_paper/figs"
-TAB = "/home/claude/gpci_paper/tex/tables"
+RES = "/home/dev/gpci_paper/results"
+FIG = "/home/dev/gpci_paper/figs"
+TAB = "/home/dev/gpci_paper/tex/tables"
 R = json.load(open(f"{RES}/realdata.json"))
 NAMES = {"BB": "Ball bearings", "GP": "Guinea pigs"}
 
