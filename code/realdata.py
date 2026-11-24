@@ -6,7 +6,7 @@ from scipy.stats import norm
 from gpci_core import *
 from design import PATTERNS, make_design, crit_values, test_cost, COST
 
-OUT = "/home/claude/gpci_paper/results"
+OUT = "/home/dev/gpci_paper/results"
 TAU = TAU_3S
 
 DATA = {
