@@ -6,7 +6,7 @@ from gpci_core import *
 
 L, U = 3.0, 18.0
 CONFIGS = {"C1": (1.75, 0.30), "C2": (2.00, 0.28), "C3": (2.30, 0.20)}
-OUT = "/home/claude/gpci_paper/results"
+OUT = "/home/dev/gpci_paper/results"
 K = 6
 PATTERNS = {
     "MIPT-I (E first)": [True, False, True, False, True, False],
