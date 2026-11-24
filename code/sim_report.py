@@ -6,9 +6,9 @@ from figstyle import setup, PAL, TEXTW, panel_label, plt
 from gpci_core import *
 
 setup()
-RES = "/home/claude/gpci_paper/results"
-FIG = "/home/claude/gpci_paper/figs"
-TAB = "/home/claude/gpci_paper/tex/tables"
+RES = "/home/dev/gpci_paper/results"
+FIG = "/home/dev/gpci_paper/figs"
+TAB = "/home/dev/gpci_paper/tex/tables"
 os.makedirs(TAB, exist_ok=True)
 CFGS = ["C1", "C2", "C3"]
 SCH = ["S1", "S2"]
