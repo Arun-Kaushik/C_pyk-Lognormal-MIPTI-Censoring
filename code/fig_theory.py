@@ -8,8 +8,8 @@ from figstyle import setup, PAL, TEXTW, panel_label, plt
 from gpci_core import *
 
 setup()
-FIG = "/home/claude/gpci_paper/figs"
-RES = "/home/claude/gpci_paper/results"
+FIG = "/home/dev/gpci_paper/figs"
+RES = "/home/dev/gpci_paper/results"
 L, U = 3.0, 18.0
 CONFIGS = {"C1": (1.75, 0.30), "C2": (2.00, 0.28), "C3": (2.30, 0.20)}
 
