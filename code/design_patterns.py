@@ -4,7 +4,7 @@ import numpy as np
 from gpci_core import *
 from design import CONFIGS, COST, make_design, crit_values, active_arm, K
 
-OUT = "/home/claude/gpci_paper/results"
+OUT = "/home/dev/gpci_paper/results"
 PATS = [tuple(bool(b) for b in bits) for bits in itertools.product([1, 0], repeat=K)]
 
 
